@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:30 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0        ''      NO NAME
+
+> 576px    SM    Small Devices
+
+> 768px    MD    Medium Devices
+
+> 992      LG    Large Devices
+
+> 1200     XL    Extra Large
+
+> 1400     XXL   Extra Extra Large
+
+*/
+
+
+
+@media(min-width:576px){
+    /*  ABOUT*/
+    .about .about-image-item .hover .hover-link{
+        font-size: 1rem;
+        margin-bottom: 3px;
+    }
+    .about .about-image-item .hover .hover-description{
+        font-size: 10px;
+    }
+    .about .about-image-item .hover .about-hover-wrapper{
+        top: 40%;
+    }
+
+    /*    NUMBERS*/
+
+    .numbers .numbers-item .numbers-item-title{
+        font-size: 60px;
+
+    }
+/*WORK*/
+.team .team-image .team-hover .hover-wrapper{
+    left: 30%;
+}
+
+/*PEOPLE*/
+
+.people .people-item .people-item-content .people-item-content-description:after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+    margin-top: 17px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+}
+
+@media(min-width:768px){
+    /*  ABOUT*/
+    .about .about-image-item .hover .hover-link{
+        font-size: 1.5rem;
+        margin-bottom: 11px;
+    }
+    .about .about-image-item .hover .hover-description{
+        font-size: 18px;
+    }
+
+    /*NUMBERS*/
+    .numbers .numbers-item{
+        padding: 90px 0;
+    }
+
+/*WORK*/
+
+.team .team-image .team-hover .hover-wrapper{
+    left: 6%;
+}
+
+/*BLOG*/
+
+.blog .blog-item .blog-item-image .blog-item-image-date{
+  
+    top: 42%; 
+}
+
+}
+
+@media(min-width:992px){
+    /*  NAVIGATION*/
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 55px;
+    }
+    /*NUMBERS*/
+
+    .numbers .numbers-item .numbers-item-title{
+        font-size: 72px;
+
+    }
+    
+/*    WORK*/
+
+.team .team-image .team-hover .hover-wrapper{
+    left: 17%;
+}
+/*BLOG*/
+
+.blog .blog-item .blog-item-image .blog-item-image-date{
+  
+    top: 55%; 
+}
+
+}
+
+@media(min-width:1200px){
+    /*  NUMBERS*/
+
+    .numbers .numbers-item{
+        border-right: 1px solid #FFFFFF;
+    }
+    .numbers .col:first-of-type > article{
+        border-left: 1px solid #FFFFFF;
+    }
+/*WORK*/
+
+.team .team-image .team-hover .hover-wrapper{
+    left: 21%;
+}
+/*BLOG*/
+
+.blog .blog-item .blog-item-image .blog-item-image-date{
+  
+    top: 65%; 
+}
+}
+
+@media(min-width:1400px){
+
+/*WORK*/
+
+.team .team-image .team-hover .hover-wrapper{
+    left: 25%;
+}
+}
